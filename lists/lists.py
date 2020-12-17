@@ -14,8 +14,7 @@ def delete_elem_from_list(list, index = -1):
     if (index < 0) or (index >= len(list)):
       return []
     else:
-      list.pop(index)
-      return(list)
+      return(list.pop(index))
 
 def count_elements_in_list(list, x):
     # count elements in the list that are equal to x and return the count
