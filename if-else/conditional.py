@@ -9,7 +9,7 @@ def is_positive(num):
 
 def is_even(num):
     # return true if num is even, otherwise return false
-    if (num // 2 == 0):
+    if (num % 2 == 0):
       return True
     else:
       return False
