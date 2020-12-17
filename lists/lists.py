@@ -1,6 +1,6 @@
 def size_of_list(list):
     # return size of list
-    return(list.size())
+    return(len(list))
 
 def add_elem_to_list(list, elem):
     # add elem to list and return the list
