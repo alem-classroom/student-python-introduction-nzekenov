@@ -3,4 +3,5 @@ def insert_squares(arr, num):
     n = num
     while (n > 0):
       arr.append((n - num + 1) * (n - num + 1))
-  return arr
+      n -= 1
+    return arr
